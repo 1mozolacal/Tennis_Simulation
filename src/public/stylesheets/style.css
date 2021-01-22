@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1 {
+  font-size: 6em;
+}
+
+.center {
+  align-content: center;
+  text-align: center;
+}

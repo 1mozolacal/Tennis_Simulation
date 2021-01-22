@@ -3,15 +3,22 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Welcome to the Tennis tracker</h1>
+    <div class="jumbotron">
+    <h2>Welcome to the Tennis tracker</h1>
     <p>current game...</p>
-    <div id="inject"></div>
-    <button onclick="score1()">Score1</button>
-    <button onclick="score2()">Score2</button>
-    <button onclick="reset()">Reset</button>
+  </div>
+    <div id="inject" class="center"></div>
+    <div class="center">
+  <div class="btn-group">
+    <button class="btn btn-primary" onclick="score1()">Score1</button>
+    <button class="btn btn-primary" onclick="score2()">Score2</button>
+    <button class="btn btn-info" onclick="reset()">Reset</button>
+  </div>
+</div>
   </body>
   <script src="/javascripts/global.js" ></script>
 </html>

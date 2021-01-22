@@ -50,7 +50,7 @@ function renderFromServer(){
             if(this.won){
                 injectHTML="<h2> " + this.winner + " won!</h2>"
             }else {
-                injectHTML="<h1>"+this.scoreName+"</h1>"+
+                injectHTML="<h1 style='font-size: 6em;'>"+this.scoreName+"</h1>"+
                 "<h4>Score of player one is " + this.score1 + "<h4>" +
                 "<h4>Score of player one is " + this.score2 + "<h4>";
             }
