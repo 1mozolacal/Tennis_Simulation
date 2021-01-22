@@ -50,8 +50,9 @@ function renderFromServer(){
             if(this.won){
                 injectHTML="<h2> " + this.winner + " won!</h2>"
             }else {
-                injectHTML="<h2>Score of player one is " + this.score1 + "<h2>" +
-                "<h2>Score of player one is " + this.score2 + "<h2>";
+                injectHTML="<h1>"+this.scoreName+"</h1>"+
+                "<h4>Score of player one is " + this.score1 + "<h4>" +
+                "<h4>Score of player one is " + this.score2 + "<h4>";
             }
         });
 
